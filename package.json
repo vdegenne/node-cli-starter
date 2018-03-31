@@ -1,0 +1,19 @@
+{
+  "name": "NAME",
+  "version": "1.0.0",
+  "description": "DESCRIPTION",
+  "author": "AUTHOR",
+  "license": "MIT",
+  "scripts": {
+    "watch": "rm -rf lib && tsc --watch"
+  },
+  "dependencies": {
+    "@types/node": "^9.6.1",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.4",
+    "resolve": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}
