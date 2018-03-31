@@ -3,7 +3,7 @@
 A starter for making a cli type program in NodeJs.
 
 
-## installation
+## Installation
 
 ```bash
 $ git clone https://github.com/vdegenne/node-cli-starter.git
@@ -20,8 +20,7 @@ Replace `<cli-name>` with your app name. More information about `github-fetch-st
 ## Post-installation
 
 - Install the dependencies : `yarn install`
-- Replace all the uppercase placeholders in the `package.json` and rename the file under `./bin` to the same name of the placeholder `RENAME` in `package.json`.
-- Also change the `RENAME` accordingly in the file you just renamed under `./bin`.
+- Replace all the uppercase placeholders in the `package.json` and rename the file under `./bin/RENAME` to your app name. Change all the `RENAME` inside this file as well with the app name you've set for the file.
 
 - Change `tsconfig.json` to your needs.
 - Edit the sources under `./src`

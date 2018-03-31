@@ -17,7 +17,7 @@ export async function run() {
     let cliOptions: any;
 
     try {
-        let cliOptions = commandLineArgs(args);
+        cliOptions = commandLineArgs(args);
     } catch(e) {
         printUsage(argsWithHelp);
         return;
